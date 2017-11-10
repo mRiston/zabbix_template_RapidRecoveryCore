@@ -8,9 +8,9 @@ The purpose of this template is to provide basic insights into the status of a *
 ## Goals
   - General Repository Health Info
   - Protected Agents
-   - How many Recovery Points
-   - Last protection time
-   - State & Status of Replication
+    - How many Recovery Points
+    - Last protection time
+    - State & Status of Replication
    
 ### Method
 By utilizing the standard Quest .MIB file that is included with RR instances, we will use SNMPv1 to query date from the server. Use the standard `{$SNMP_COMMUNITY}` for authentication to the device.
