@@ -16,3 +16,6 @@ The purpose of this template is to provide basic insights into the status of a *
 By utilizing the standard Quest .MIB file that is included with RR instances, we will use SNMPv1 to query date from the server. Use the standard `{$SNMP_COMMUNITY}` for authentication to the device.
 
 NOTE: By default, SNMP handling on RapidRecovery Cores is disabled. This must be enabled, and ports *<sub>(Default UDP/8161)</sub>* opened on the firewall.
+
+## Known Issues
+  - The Web Scenario that is included with the template does not authenticate properly. A simple requirement for the scenario at this point is simply to expect a 401 Unauth. Not ideal, therefore no triggers are configured for the canned Web Scenario.
