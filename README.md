@@ -5,6 +5,11 @@ A Zabbix Template for RapidRecovery Cores.
 ## Description
 The purpose of this template is to provide basic insights into the status of a **Quest Rapid Recovery** core in your system. 
 
+### Versioning Notes
+Originally, this template was written for an older version of Rapid Recovery. Since then, the OIDS used to define Repositories and Protected Agents has changed. A newer template, known working on Rapid Recovery **6.4.0.718**, has been created and uploaded. The older template with old OIDs still is present (**..._legacy.xml**). At this time, I don't know exactly when the OIDs changed.
+
+If you want to know which to use, query your RapidRecovery instance. If you get results at OID **.1.3.6.1.4.1.7572.200.100.200**, use the new version of the template. If you get results at OID **1.3.6.1.4.1.674.11000.1000.200.100.300.1.3**, use the legacy version.
+
 ## Goals
   - General Repository Health Info
   - Protected Agents
